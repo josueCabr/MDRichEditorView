@@ -9,7 +9,7 @@ class EditorViewController: UIViewController {
         super.viewDidLoad()
         additionalSafeAreaInsets = .init(top: 6, left: 12, bottom: 0, right: 12)
         editorView.webView.scrollView.keyboardDismissMode = .interactive
-        editorView.canPasteWithFormat = false
+
         view.addSubview(editorView)
         let sa = view.safeAreaLayoutGuide
         NSLayoutConstraint.activate([

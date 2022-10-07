@@ -5,14 +5,6 @@ import Ink
 
 public final class MDRichEditorView: RichEditorView, RichEditorDelegate {
     
-    /// By default this variable is true. Any contented pasted to the `MDRichEditorView`  will
-    /// contain the style format
-    public var canPasteWithFormat: Bool = true {
-        didSet {
-            webView.canPasteWithFormat = canPasteWithFormat
-        }
-    }
-    
     public var markdownString: String  {
         set {html = MarkdownParser().html(from: newValue)}
     
