@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "ink",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JohnSundell/Ink.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "77c3d8953374a9cf5418ef0bd7108524999de85a"
+      }
+    },
+    {
+      "identity" : "richeditorview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/josueCabr/RichEditorView.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "2315d7133d5bf9de3b1bbaf3b285735041a6e40d"
+      }
+    }
+  ],
+  "version" : 2
+}
